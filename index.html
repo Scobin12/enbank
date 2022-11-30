@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1f214f161b.js" crossorigin="anonymous"></script>
+
+    <!-- Estilo css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Enbank</title>
+  </head>
+  <body>
+
+    <header> <!--Iniciando header-->
+      <nav class="navbar navbar-expand-md bg-success navbar-light"> <!--comecando barra de navegacao-->
+        <div class="container"> <!--inicio container-->
+          <a href="#" class="navbar-brand">
+            <img src="/img/logo.png" style="width: 170px;">
+          </a>
+
+          <!--Botao para mostrar menu esquerdo quando a tela for sm-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#principal1">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--comeco Menu esquerdo-->
+          <div class="collapse navbar-collapse" id="principal1">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item">
+                <a href="voce" class="nav-link">Para Você</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="empresas" class="nav-link">Para Empresas</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="empresas" class="nav-link">Blog</a>
+              </li>
+
+              <li class="nav-item mr-2">
+                <a href="" class="btn btn-outline-light">Entrar</a>
+              </li>
+
+              <!--dropdown para quando a tela esta md (apenas md)-->
+              <div class="dropdown d-none d-lg-none d-md-block">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown">
+                  Suporte
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="ajuda">Ajuda</a>
+                  <a class="dropdown-item" href="atendimento">Atendimento</a>
+                  <a class="dropdown-item" href="agencias">Agências</a>
+                  <a class="dropdown-item" href="chat">Chat online</a>
+                </div>
+              </div>
+
+              <!--botao dentro do botao para mostrar menu direito quando a tela dor sm-->
+              <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#principal2">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+            </ul>
+          </div> <!--final Menu esquerdo-->
+
+          <!--comeco menu direito-->
+          <div class="collapse navbar-collapse" id="principal2">
+            <!--menu direito so aparece na parte superior em telas maiores-->
+            <ul class="navbar-nav ml-auto d-md-none d-sm-block d-lg-inline-flex">
+              <li class="nav-item">
+                <a href="ajuda" class="nav-link">Ajuda</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="atendimento" class="nav-link">Atendimento</a>
+              </li>
+
+              <li class="nav-item mr-2">
+                <a href="agencias" class="nav-link">Agências</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="chat" class="btn btn-outline-light">Chat online</a>
+              </li>
+            </ul>
+          </div><!--final menu direito-->
+        </div><!--final container-->
+      </nav> <!--finalizando barra de navegacao-->
+    </header> <!--Finalizando header-->
+
+    <section id="home"> <!--comeco area principal topo-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"> 
+            <!--conteudo esquerdo-->
+            <div class="align-self-center">
+              <h1 class="display-4">Fácil e Interativo, desconplique!</h1>
+              <p>Mais de 1 milhão de pessoas já faz parte da família enbank, venha você também, abra sua conta ainda hoje e já garanta seu cartão de débito e crédito sem anuidade!
+              </p> 
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                      <button class="btn btn-dark">Cadastre-se</button>
+                  </div>
+                </div>  
+              <!--formulario, email e icones apps-->
+              </form>
+                <p>Baixa o nosso app e tenha o enbank sempre em suas mãos
+                  <p>Disponivel para:</p>
+                  <a href="" class="btn btn-outline-light">
+                    <i><i class="fa-brands fa-android fa-md"></i></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light ml-3">
+                    <i class="fa-brands fa-apple fa-lg"></i> 
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <!--imagem direita, so aparece no md ou maior-->
+              <img src="/img/capa-mulher.png" class="d-none d-lg-block" style="width: 440px;">
+              <img src="/img/capa-mulher.png" class="d-none d-lg-none d-md-block" style="width: 370px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--comeco area principal topo-->
+    
+    <section class="caixa"><!--comeco post 1-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Tenha tudo sempre com você</h2>
+              <p>Pelo app enbank você pode acompanhar seus rendimentos, sua conta poupança e obter a facilidade na hora de pagar suas contas. No enbank priorizamos a rapidez e a segurança.</p>
+              <a href="veja-mais-app" class="btn btn-success btn-lg">Veja mais</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-none d-md-block">
+            <img src="/img/celular.jpg" style="width: 540px; height: 540px;" class="d-none d-lg-block">
+            <img src="/img/celular.jpg" style="width: 340px; height: 540px;" class="d-lg-none d-md-block">
+          </div>
+
+        </div>
+      </div>
+    </section><!--final post 1-->
+
+    <section class="caixa"><!--comeco post 2-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 d-none d-md-block">
+            <img src="/img/cartao.jpg" style="width: 540px; height: 327px;" class="d-none d-lg-block">
+            <img src="/img/cartao.jpg" style="width: 340px; height: 327px;" class="d-lg-none d-md-block">
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Peça seu cartão enbank</h2>
+              <p>Um cartão feito para você, tendo as funções de débito e crédito, 10% de desconto e passagens em até 12x, anuidade grátis e limite de até R$5 mil, cashback e muito mais. Veja mais.
+                <a href="cartao" class="text-success">Veja mais</a>
+              </p>
+              <a href="pedir-cartao" class="btn btn-success btn-lg">Peça já o seu</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section><!--final post 2-->
+
+    <section class="caixa"><!--comeco post 3-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Investimento é o que você produra ?</h2>
+              <p>Aqui no enbank incentivamos o investimento, tudo que você procura você encontra aqui, renda variável, fixa e cripto moeda, simplificado e informativo. Venha investir conosco.</p>
+              <a href="investir" class="btn btn-success btn-lg mb-4">Investir agora</a>
+              <h2>Por onde começar ?</h2>
+              <p>Esta querendo saber como entrar no mundo do investimento, quer investir e guardar um dinheiro todo mês, mas não sabe onde nem como? Você acabou de achar o lugar certo, venha conferir o guia completo que o enbank fez para você.</p>
+              <a href="guia" class="btn btn-success btn-lg mb-4">acesse a matéria</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-none d-md-block">
+            <img src="/img/investimento.jpg" style="width: 540px; height: 540px;" class="d-none d-lg-block">
+            <img src="/img/investimento.jpg" style="width: 340px; height: 540px;" class="d-lg-none d-md-block">
+          </div>
+
+        </div>
+      </div>
+    </section><!--final post 3-->
+
+    <section class="caixa"><!--comeco post 4-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-block">
+            <img src="/img/economize.png" class="img-fluid"></img>
+            <h4>Economize seu tempo</h4>
+            <p>Tempo é dinheiro ! Com poucos cliques e alguns segundos, você pode fazer o que precisa, sem demora, sem enrolaçaõ. Agilidade é um dos nossos lemas!</p>
+          </div>
+
+          <div class="col-md-4 d-block">
+            <img src="/img/facil.png" class="img-fluid"></img>
+            <h4>Fácil de usar</h4>
+            <p>O enbank é fácil, exatamento como um banco tem que ser, uma visão simples e completa, onde se pode encontrar tudo o que precisa.</p>
+          </div>
+
+          <div class="col-md-4 d-block">
+            <img src="/img/suporte.png" class="img-fluid"></img>
+            <h4>Suporte amigo</h4>
+            <p>Nosso suporte ajuda você, não encontrar sua dúvida na página <a href="ajuda" class="text-success">ajuda</a>? Nos chame no chat online. A gente tá aqui para resolver seus problemas e deixar sua vida bem mais fácil!</p>
+          </div>
+        </div>
+      </div>
+    </section><!--final post 4-->
+
+    <footer class="mt-4 mb-4"><!--comeco rodape-->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <p>
+                      <a class="text-success ml-4" href="para-voce">Para Você</a>
+                      <a class="text-success ml-4" href="blog">Blog</a>
+                      <a class="text-success ml-4" href="ajuda">Ajuda</a>
+                      <a class="text-success ml-4" href="chat-online">Chat online</a>
+                  </p>
+              </div>
+
+              <div class="col-md-4 d-flex justify-content-end">
+                  <a href="twitter" class="btn btn-outline-success ml-2">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="instagram" class="btn btn-outline-success ml-2">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="facebook" class="btn btn-outline-success ml-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="whatsapp" class="btn btn-outline-success ml-2">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+              </div>
+          </div>
+      </div>
+  </footer><!--final rodape-->
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
