@@ -7,7 +7,7 @@ Site responsivo, as imagens são do navegador, IPad Air e IPhone 12 Pro. <br>
 (Registro de evolução pessoal. Data: 30/11/2022) <br> <br>
 
 Imagens Navegador:
-![enbank_Pc_01](https://user-images.githubusercontent.com/57958764/205438703-f0c69c75-2fa0-4007-a606-d72cbefd6c5f.png)
+![enbank_Pc_01](https://user-images.githubusercontent.com/57958764/205439011-9f9884d9-166a-461a-b9c4-6e8792c0949d.png)
 ![enbank_Pc_02](https://user-images.githubusercontent.com/57958764/205438706-76076dad-a5b2-4f4b-a1fa-df544c279ec5.png)
 ![enbank_Pc_03](https://user-images.githubusercontent.com/57958764/205438708-1571216e-b565-4383-913f-d8136295b13e.png)
 ![enbank_Pc_04](https://user-images.githubusercontent.com/57958764/205438714-af8d7306-51b3-46af-b184-10fcd43a5b66.png)
